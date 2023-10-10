@@ -1,8 +1,8 @@
 <?php
 $host = "localhost"; // database host
 $username = "root"; //  database username
-$password = ""; // database password
-$database = ""; // database name
+$password = "root"; // database password
+$database = "tracker"; // database name
 
 //database connection
 $conn = new mysqli($host, $username, $password, $database);

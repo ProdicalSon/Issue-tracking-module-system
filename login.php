@@ -7,25 +7,29 @@
     <title>Login || Registration</title>
 </head>
 <body>
-
-    <h2>User Registration</h2>
+    <div class="login-container">
+    <h2>Login</h2>
     <form method="post" action="">
-        <label>Username:</label>
+        <label><b>Username</b> :</label>
         <input type="text" name="username" required><br><br>
-        <label>Password:</label>
-        <input type="password" name="password" required><br><br>
-        <label>Email:</label>
-        <input type="email" name="email" required><br><br>
-        <input type="submit" name="register" value="Register">
-    </form>
-
-    <h2>User Login</h2>
-    <form method="post" action="">
-        <label>Username:</label>
-        <input type="text" name="username" required><br><br>
-        <label>Password:</label>
+        <label><b>Password</b>:</label>
         <input type="password" name="password" required><br><br>
         <input type="submit" name="login" value="Login">
     </form>
+</div>
+<div class="reg-container">
+    <h2>Registration</h2>
+    <form method="post" action="">
+        <label><b>Username</b>:</label>
+        <input type="text" name="username" required><br><br>
+        <label><b>Password</b>:</label>
+        <input type="password" name="password" required><br><br>
+        <label><b>Email</b>:</label>
+        <input type="email" name="email" required><br><br>
+        <input type="submit" name="register" value="Register">
+    </form>
+</div>
+
+
 </body>
 </html>
